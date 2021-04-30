@@ -1,4 +1,3 @@
-from datetime import timedelta, datetime
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.sensors.exasol_plugin import ExasolSensor
